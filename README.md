@@ -4,7 +4,7 @@ An AutoRAG (Retrieval-Augmented Generation) AI assistant that answers user quest
 
 ---
 
-## 🚀 Features
+##  Features
 - PDF document ingestion
 - Semantic search using pgvector
 - Accurate answers using OpenAI GPT models
@@ -14,7 +14,7 @@ An AutoRAG (Retrieval-Augmented Generation) AI assistant that answers user quest
 
 ---
 
-## 🧠 Architecture
+##  Architecture
 1. PDF → Text Extraction  
 2. Text → Embeddings (OpenAI)  
 3. Embeddings → PostgreSQL (pgvector)  
@@ -24,7 +24,7 @@ An AutoRAG (Retrieval-Augmented Generation) AI assistant that answers user quest
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 - LLM: OpenAI GPT-4o
 - Framework: PhiData
 - Vector DB: pgvector
