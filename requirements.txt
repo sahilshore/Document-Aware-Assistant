@@ -1,0 +1,7 @@
+phidata
+openai
+psycopg[binary]
+pgvector
+python-dotenv
+nest-asyncio
+duckduckgo-search
