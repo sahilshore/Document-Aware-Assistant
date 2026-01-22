@@ -38,31 +38,33 @@ An AutoRAG (Retrieval-Augmented Generation) AI assistant that answers user quest
 git clone https://github.com/sahilshore/Document-Aware-Assistant.git
 cd Document-Aware-Assistant
 
-2️⃣ Create a Virtual Environment
-          python -m venv venv
-
+2️⃣ Create a Virtual Environme
+                    python -m venv venv
+                    
 
 Activate it:
 
 Windows
 
-venv\Scripts\activate
+
+    venv\Scripts\activate
 
 
 Mac / Linux
-
-source venv/bin/activate
+          
+          source venv/bin/activate
 
 3️⃣ Install Dependencies
-pip install -r requirements.txt
+
+          pip install -r requirements.txt
 
 4️⃣ Setup Environment Variables
 
 Create a .env file in the project root:
       
-      OPENAI_API_KEY=your_openai_api_key
-      OPENAI_MODEL_NAME=gpt-4o
-      DATABASE_URL=postgresql+psycopg://ai:ai@localhost:5432/ai
+          OPENAI_API_KEY=your_openai_api_key
+          OPENAI_MODEL_NAME=gpt-4o
+          DATABASE_URL=postgresql+psycopg://ai:ai@localhost:5432/ai
 
 
 !!!! Make sure PostgreSQL is running and pgvector extension is enabled.
@@ -75,19 +77,22 @@ Place your PDF file in the project directory
 You can replace it with your own document if needed.
 
 6️⃣ Run the Application
+
              python app.py
 
 7️⃣ Example Query
-Which team won IPL 2024?
+
+           Which team won IPL 2024?
 
 
 The assistant will:
 
-Search the PDF knowledge base
 
-Fall back to web search if needed
-
-Generate a grounded response using the LLM
+          1.Search the PDF knowledge base
+          
+          2.Fall back to web search if needed
+          
+          3.Generate a grounded response using the LLM
 
 Notes
 
